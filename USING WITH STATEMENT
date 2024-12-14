@@ -1,0 +1,4 @@
+# using this method
+with open("/content/POOJA K V.txt","r")as file:
+  content = file.read()
+  print(content)
