@@ -1,0 +1,2 @@
+with open("/content/pexels-gabriel-peter-219375-719396.jpg","rb")as file:
+  data = file.read()
