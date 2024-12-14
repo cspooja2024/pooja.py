@@ -1,0 +1,7 @@
+#finally block
+try:
+  file = open("/content/POOJA K V.txt","r")
+except FileNotFoundError:
+  print("File not found.")
+finally:
+  print("Execution complete.")
