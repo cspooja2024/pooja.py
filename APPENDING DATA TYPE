@@ -1,0 +1,4 @@
+# appending data type
+with open("/content/PPOJA K V.txt","a") as file:
+  file.write("lets learn file handling")
+  print(content)
