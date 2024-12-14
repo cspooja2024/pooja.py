@@ -1,0 +1,5 @@
+# reading a line with readlines
+file = open("/content/POOJA K V.txt","r")
+content = file.readlines()
+print(content)
+file.close()
