@@ -1,0 +1,9 @@
+# handling division by zero
+try:
+  num1 = int(input("Enter a number:"))
+  num2 = int(input("Enter a denominator:"))
+  result = num1/num2
+except ZeroDivisorError:
+  print("Cannot divide by zero")
+except ValueError:
+  print("Invalid input! enter numeric values")
