@@ -1,0 +1,5 @@
+file = open("/content/POOJA K V.txt","w")
+file.write("Hello, world!\n")
+file.close()
+print(content)
+
