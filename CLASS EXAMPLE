@@ -1,0 +1,11 @@
+class Example:
+  def __init__ (self):
+    self.public_var = "I am public "
+    self.__private_var = "I am private"
+
+  def show_private(self):
+    print(self.__private_var)
+
+obj = Example()
+print(obj.public_var)# Accesible
+obj.show_private()# Accessible via method      
